@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a;
+            int b;
+            int c;
+            Console.WriteLine("enter the first number");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter the first number");
+            b = Convert.ToInt32(Console.ReadLine());
+            c = a + b;
+            {
+                Console.WriteLine("addition of two number is:" + c);
+            }
+            {
+                c = a - b;
+                {
+                    Console.WriteLine("substraction of two number is:" + c);
+                }
+                {
+                    c = a * b;
+                    {
+                        Console.WriteLine("multipication of two number is:" + c);
+                    }
+                    {
+                        c = a % b;
+                        {
+                            Console.WriteLine("modulation of two number is:" + c);
+                        }
+                        {
+                            c = a / b;
+                            {
+                                Console.WriteLine("dividation of two number is:" + c);
+                            }
+
+                        }
+                    }
+                }
+            }
+            Console.ReadLine();
+        }
+    }
+}
